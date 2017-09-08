@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-family: "Times New Roman", Times, serif; font-size: 40px;
+}
+
+list,p {
+    color: crimson;
+}
+
+p {
+    text-emphasis-style: double-circle;
+    text-emphasis: filled sesame;
+}
+
+h1 {alignment: center;}
+
+ul > li > ul > li{ color: blue;
+        list-style-type: disc;
+}
+
+li {border-spacing: 10px;}
+
+a:link {
+    text-decoration: none;
+}
+
+table {
+    border-style: dashed;
+
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
