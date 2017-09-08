@@ -3,38 +3,37 @@ body {
 }
 
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Georgia";
 }
 
 h1 {
-    font-family: "Times New Roman", Times, serif; font-size: 40px;
+    font-family: "Arial Narrow"; font-size: 40px; text-align: justify;
 }
 
-list,p {
+h2 {
+    font-family: "Baskerville Old Face"; font-size: 30px; text-align: center;
+}
+
+li,p {
     color: crimson;
 }
 
-p {
-    text-emphasis-style: double-circle;
-    text-emphasis: filled sesame;
-}
+em { color: darkviolet}
 
-h1 {alignment: center;}
+ul { list-style-type: circle;}
+
+li { list-style-type: square; padding: 5px;}
 
 ul > li > ul > li{ color: blue;
         list-style-type: disc;
 }
-
-li {border-spacing: 10px;}
 
 a:link {
     text-decoration: none;
 }
 
 table {
-    border-style: dashed;
-
-}
+    border-style: dashed; padding: 10px; }
 
 img {
     opacity: 0.5;
@@ -43,3 +42,9 @@ img {
 img:hover {
     opacity: 1.0;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
+code { background-color: greenyellow; border-radius: 5px;}
