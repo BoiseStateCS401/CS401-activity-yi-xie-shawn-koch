@@ -47,4 +47,8 @@ img:hover {
     border-radius: 50%;
 }
 
-code { background-color: greenyellow; border-radius: 5px;}
+pre {
+    background-color: black;
+    color: white;
+    border: solid;
+}
