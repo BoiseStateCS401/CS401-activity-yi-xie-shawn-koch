@@ -30,8 +30,8 @@ a:link {
 }
 
 table {
-    border: dashed;
-    padding: 10px;   
+    border: 1.5px dashed black;
+    padding: 10px;
 }
 
 img {
