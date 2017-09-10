@@ -1,8 +1,5 @@
 body {
     background-color: lightblue;
-}
-
-body {
     font-family: "Georgia";
 }
 
@@ -15,7 +12,7 @@ h2 {
 }
 
 li,p {
-    color: crimson;
+    color: brown;
 }
 
 em { color: darkviolet}
@@ -33,7 +30,9 @@ a:link {
 }
 
 table {
-    border-style: dashed; padding: 10px; }
+    border: dashed;
+    padding: 10px;   
+}
 
 img {
     opacity: 0.5;
@@ -42,10 +41,6 @@ img {
 
 img:hover {
     opacity: 1.0;
-}
-
-.img-circle {
-    border-radius: 50%;
 }
 
 pre {
