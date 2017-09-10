@@ -4,33 +4,45 @@ body {
 }
 
 h1 {
-    font-family: "Arial Narrow"; font-size: 40px; text-align: justify;
+    font-family: "Arial Narrow"; 
+    font-size: 40px; 
+    text-align: justify;
 }
 
 h2 {
-    font-family: "Baskerville Old Face"; font-size: 30px; text-align: center;
+    font-family: "Baskerville Old Face"; 
+    font-size: 30px; 
+    text-align: center;
 }
 
 li,p {
     color: brown;
 }
 
-em { color: darkviolet}
+em { 
+    color: darkviolet
+}
 
-ul { list-style-type: circle;}
+ul { 
+    list-style-type: circle;
+}
 
-li { list-style-type: square; padding: 5px;}
+li { 
+    list-style-type: square; 
+    padding: 5px;
+}
 
-ul > li > ul > li{ color: blue;
-        list-style-type: disc;
+ul > li > ul > li{ 
+    color: blue;
+    list-style-type: disc;
 }
 
 a:link {
     text-decoration: none;
 }
 
-table {
-    border: 1.5px dashed black;
+table, th, td  {
+    border: 1px dashed black;
     padding: 10px;
 }
 
