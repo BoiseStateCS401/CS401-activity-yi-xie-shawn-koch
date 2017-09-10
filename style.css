@@ -37,6 +37,7 @@ table {
 
 img {
     opacity: 0.5;
+    border-radius: 25%;
 }
 
 img:hover {
