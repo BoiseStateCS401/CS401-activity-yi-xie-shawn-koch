@@ -1,139 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-      <meta charset="UTF-8">
-      <title>Programming is Fun</title>
-      <link href="style.css" type="text/css" rel="stylesheet" />
-   </head>
-   <body>
-      <h1>
-         YI XIE / SHAWN KOCH
-      </h1>
-      <hr>
-      <h2>
-         HTML
-      </h2>
-      <p>
-         <Strong>HyperText Markup Language (HTML)</Strong> is the standard markup language for creating web pages and web
-         applications. Web browsers receive HTML documents from a webserver or from
-         local storage and render them into multimedia web pages. HTML describes the structure of a web
-         page semantically and originally included cues for the appearance of the document.
-         HTML elements are the building blocks of HTML pages. With HTML constructs, images and other
-         objects, such as interactive forms may be embedded into the rendered page. It provides a means
-         to create structured documents by denoting structural semantics for text such as headings,
-         paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written
-         using angle brackets.
-         With <em>Cascading Style Sheets (CSS)</em>, and JavaScript, it forms a triad of cornerstone
-         technologies for the World Wide Web.
-         More information please check:
-         <a href="https://www.w3schools.com/html/" title="HTML5 Tutorial @ w3schools.com">Visit our HTML tutorial</a>
-      </p>
-      <h2>
-         CSS
-      </h2>
-      <p>
-         <strong>CSS</strong> stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper,
-         or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
-         External stylesheets are stored in <em>CSS</em> files. More information please check: <a href="https://www.w3schools.com/css/" title="CSS Tutorial @ w3schools.com">CSS</a>
-      </p>
-      <h2>
-         JavaScript
-      </h2>
-      <p>
-         <strong>JavaScript</strong> often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based,
-         multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core
-         technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs,
-         including video games. The majority of websites employ it, and all modern web browsers support it without the need
-         for plug-ins by means of a <em>built-in</em> JavaScript engine. Each of the many JavaScript engines represent a different
-         implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the
-         spec fully, and with many engines supporting additional features beyond ECMA.
-         More information please check: <a href="https://www.w3schools.com/js/" title="JavaScript Tutorial @ w3schools.com">Javascript</a>
-      </p>
-      <hr>
-      <h2>
-         Our favorite animals:
-      </h2>
-      <a href="https://en.wikipedia.org/wiki/Donald_Duck" target="_blank">
-      <img src="Donald-Duck-PNG-Picture.png" alt="Donald Duck" title="Donald Duck" width="400" height="400">
-      </a>
-      <a href="https://en.wikipedia.org/wiki/Honey_badger" target="_blank">
-      <img src="honeybadger.jpg" alt="Honey Badger" title="Honey Badger" width="400" height="400">
-      </a>
-      <hr>      
-      <pre>
-        public class HelloWorld {
+<head>
+    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <meta charset="UTF-8">
+    <title>Programming is Fun</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<header>
+        <nav>
+        <h1>
+        YI XIE / SHAWN KOCH 's Website
+        </h1>
 
-            public static void main(String[] args) {
-                
-                System.out.println("Hello, World");
-                
-            }
+        <ul>
+        <li><a href="index.html">HTML, CSS, JavaScript</a> </li>
+        <li><a href="favoriteanimal.html">Our Favorite Animal</a></li>
+        <li><a href="studentinfo.html">Our Favorite Animal</a></li>
+        </ul>
+    </nav>
+</header>
 
-        }
-      </pre>
-      <hr>
-      <table>
-         <tr>
-            <th>Student ID</th>
-            <th>Student Name</th>
-            <th>Major</th>
-         </tr>
-         <tr>
-            <td>10001</td>
-            <td>John Smith</td>
-            <td>CS</td>
-         </tr>
-         <tr>
-            <td>10022</td>
-            <td>Joe Jackson</td>
-            <td>EE</td>
-         </tr>
-         <tr>
-            <td>100032</td>
-            <td>Yi Xie</td>
-            <td>CS</td>
-         </tr>
-      </table>
-      <hr>
-      <ul>
-         <li>
-            Which elements are block elements and which elements are inline? How do you know?
-            <ul>
-               <li>While in the Chrome page inspector, select "Elements" from the top menu bar and then "Styles" from the second-level menu.
-                  You can then select elements of the html page and see if their display property = "block".  It looks like only the images are inline,
-                  everything is block.
-               </li>
-            </ul>
-         </li>
-         <li>
-            What is the default margin of the body element?
-            <ul>
-               <li>8 pixels</li>
-            </ul>
-         </li>
-         <li>
-            What are the default font-size and font-weight of the h1 element?
-            <ul>
-               <li>2em and Times New Roman</li>
-            </ul>
-         </li>
-         <li>
-            How long does it take to load your page?
-            <ul>
-               <li>451 ms</li>
-            </ul>
-         </li>
-         <li>
-            How can you view the response status of the requested resources (e.g. images in this case)?
-            <ul>
-               <li>While in the Chrome page inspector, select "Network" from the top menu bar and click F5 to refresh.  The load time for each image will be displayed in the table.</li>
-            </ul>
-         </li>
-      </ul>
-      <hr>
-      <footer>
-         <small>&copy; Copyright 2017, YI XIE / SHAWN KOCH</small>
-      </footer>
-   </body>
+<hr>
+
+<Section id="html-cs-js">
+    <article id="html">
+        <h2>
+        HTML
+        </h2>
+        <p>
+            <Strong>HyperText Markup Language (HTML)</Strong> is the standard markup language for creating web pages and web
+            applications. Web browsers receive HTML documents from a webserver or from
+            local storage and render them into multimedia web pages. HTML describes the structure of a web
+            page semantically and originally included cues for the appearance of the document.
+            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other
+            objects, such as interactive forms may be embedded into the rendered page. It provides a means
+            to create structured documents by denoting structural semantics for text such as headings,
+            paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written
+            using angle brackets.
+            With <em>Cascading Style Sheets (CSS)</em>, and JavaScript, it forms a triad of cornerstone
+            technologies for the World Wide Web.
+            More information please check:
+            <a href="https://www.w3schools.com/html/" title="HTML5 Tutorial @ w3schools.com">Visit our HTML tutorial</a>
+        </p>
+
+    </article>
+
+    <article id="css">
+        <h2>
+            CSS
+        </h2>
+        <p>
+            <strong>CSS</strong> stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper,
+            or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+            External stylesheets are stored in <em>CSS</em> files. More information please check: <a href="https://www.w3schools.com/css/" title="CSS Tutorial @ w3schools.com">CSS</a>
+        </p>
+    </article>
+
+    <article id="js">
+        <h2>
+            JavaScript
+        </h2>
+        <p>
+            <strong>JavaScript</strong> often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based,
+            multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core
+            technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs,
+            including video games. The majority of websites employ it, and all modern web browsers support it without the need
+            for plug-ins by means of a <em>built-in</em> JavaScript engine. Each of the many JavaScript engines represent a different
+            implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the
+            spec fully, and with many engines supporting additional features beyond ECMA.
+            More information please check: <a href="https://www.w3schools.com/js/" title="JavaScript Tutorial @ w3schools.com">Javascript</a>
+        </p>
+    </article>
+
+
+</Section>
+
+<footer>
+    <small>&copy; Copyright 2017, YI XIE / SHAWN KOCH</small>
+</footer>
+</body>
 </html>
