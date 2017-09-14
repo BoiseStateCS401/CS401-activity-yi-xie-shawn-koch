@@ -1,17 +1,28 @@
+
+header {
+    background-color:#FF7A33;
+    list-style-type: none;
+    margin: 10px 0px 0px 0px;
+    padding: 1px;
+
+}
+li {
+    diplay:inline;
+}
 body {
     background-color: lightblue;
     font-family: "Georgia";
 }
 
 h1 {
-    font-family: "Arial Narrow"; 
-    font-size: 40px; 
+    font-family: "Arial Narrow";
+    font-size: 40px;
     text-align: justify;
 }
 
 h2 {
-    font-family: "cursive"; 
-    font-size: 30px; 
+    font-family: "cursive";
+    font-size: 30px;
     text-align: center;
 }
 
@@ -19,20 +30,20 @@ li,p {
     color: brown;
 }
 
-em { 
+em {
     color: darkviolet
 }
 
-ul { 
+ul {
     list-style-type: circle;
 }
 
-li { 
-    list-style-type: square; 
+li {
+    list-style-type: square;
     padding: 5px;
 }
 
-ul > li > ul > li{ 
+ul > li > ul > li{
     color: blue;
     list-style-type: disc;
 }
