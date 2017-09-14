@@ -1,83 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
     <meta charset="UTF-8">
-    <title>Programming is Fun</title>
-    <link href="style.css" type="text/css" rel="stylesheet" />
+    <title>JavaScript School</title>
+    <link rel="stylesheet" type = "text/css" href = "myStyle.css" >         <!-- link the stylesheet file-->
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0"> <!-- sets the width of the page to follow the screen-width of the device -->
 </head>
-<body>
-<header>
-        <nav>
-        <h1>
-        YI XIE / SHAWN KOCH 's Website
-        </h1>
 
-        <ul>
-        <li><a href="index.html">HTML, CSS, JavaScript</a> </li>
-        <li><a href="favoriteanimal.html">Our Favorite Animal</a></li>
-        <li><a href="studentinfo.html">Our Favorite Animal</a></li>
-        </ul>
-    </nav>
-</header>
+<body class = "body">
+    <header class = "mainHeader">
+        <img src = "img/cropped-banner-web-development.png">
+        <nav class=" navClass"><ul>
+            <li><a class="active" href = "index.html">Home</a></li>
+            <li><a class = "active" href = "Animals.html">Animals</a></li>
+            <li><a href = "demo.html">Demo</a></li>
+            </ul>
 
+        </nav>
+    </header>
+    <div class = "mainContent">
+        <div class = "content">
+            <!-- HTML introduction-->
+            <article class = "topContent">
+                <header>
+                    <h2><a href = "#" title = "HTML Introduction">HTML Introduction</a></h2>
+                </header>
+                <footer>
+                    <p class = "top-info">This post is created by Yi Xie & Shawn Koch</p>
+                </footer>
+
+                <content>
+                    <p>
+                        <a href="https://en.wikipedia.org/wiki/HTML"><em>HyperText Markup Language (HTML) </em></a>is the standard markup language for creating web pages and web
+                        applications. Web browsers receive HTML documents from a webserver or from
+                        local storage and render them into multimedia web pages. HTML describes the structure of a web
+                        page semantically and originally included cues for the appearance of the document.
+
+                        <strong>HTML</strong> elements are the building blocks of HTML pages. With HTML constructs, images and other
+                        objects, such as interactive forms may be embedded into the rendered page. It provides a means
+                        to create structured documents by denoting structural semantics for text such as headings,
+                        paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written
+                        using angle brackets.
+
+                        With Cascading Style Sheets (CSS), and JavaScript, it forms a triad of cornerstone
+                        technologies for the World Wide Web.
+                    </p>
+                </content>
+                <!-- CSS introduction-->
+            </article>
+            <article class = "middleContent">
+                <header>
+                    <h2><a href = "#" title = "CSS Introduction">CSS Introduction</a></h2>
+                </header>
+                <footer>
+                    <p class = "middle-info">This post is created by Yi Xie & Shawn Koch</p>
+                </footer>
+                <content>
+                    <p>
+                        <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets"><em>Cascading Style Sheets (CSS)</em></a> is a style sheet language used for describing the presentation of a
+                        document written in a markup language. Although most often used to set the visual style of web
+                        pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document,
+                        including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.
+                        Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create
+                        visually engaging webpages, user interfaces for web applications, and user interfaces for many
+                        mobile applications.
+
+                        <Strong>CSS</Strong> is designed primarily to enable the separation of document content from document presentation,
+                        including aspects such as the layout, colors, and fonts. This separation can improve content
+                        accessibility, provide more flexibility and control in the specification of presentation characteristics,
+                        enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css
+                        file, and reduce complexity and repetition in the structural content.
+
+                        Separation of formatting and content makes it possible to present the same markup page in different
+                        styles for different rendering methods, such as on-screen, in print, by voice (via speech-based
+                        browser or screen reader), and on Braille-based tactile devices. It can also display the web page
+                        differently depending on the screen size or viewing device. Readers can also specify a different
+                        style sheet, such as a CSS file stored on their own computer, to override the one the author specified.
+
+                        Changes to the graphic design of a document (or hundreds of documents) can be applied quickly
+                        and easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.
+
+                        The CSS specification describes a priority scheme to determine which style rules apply if more
+                        than one rule matches against a particular element. In this so-called cascade, priorities
+                        (or weights) are calculated and assigned to rules, so that the results are predictable.
+                    </p>
+                </content>
+            </article>
+            <!-- JavaScript-->
+            <article class = "bottomContent">
+                <header>
+                    <h2><a href = "#" title = "JavaScript Introduction">JavaScript Introduction</a></h2>
+                </header>
+                <footer>
+                    <p class = "bottom-info">This post is created by Yi Xie & Shawn Koch</p>
+                </footer>
+
+                <content>
+                    <p>
+                        In computing, <a href="https://en.wikipedia.org/wiki/JavaScript"><em>JavaScript</em></a> is a high-level, dynamic, untyped, and interpreted programming language.
+                        It has been standardized in the ECMAScript language specification.Alongside HTML and CSS,
+                        JavaScript is one of the three core technologies of World Wide Web content production; the
+                        majority of websites employ it, and all modern Web browsers support it without the need for
+                        plug-ins.JavaScript is prototype-based with first-class functions, making it a multi-paradigm
+                        language, supporting object-oriented, imperative, and functional programming styles. It has an
+                        API for working with text, arrays, dates and regular expressions, but does not include any I/O,
+                        such as networking, storage, or graphics facilities, relying for these upon the host environment
+                        in which it is embedded.
+
+                        Although there are strong outward similarities between JavaScript and Java, including language
+                        name, syntax, and respective standard libraries, the two are distinct languages and differ
+                        greatly in their design. JavaScript was influenced by programming languages such as Self and Scheme.
+
+                        <strong>JavaScript</strong> is also used in environments that are not Web-based, such as PDF documents,
+                        site-specific browsers, and desktop widgets. Newer and faster JavaScript virtual machines (VMs)
+                        and platforms built upon them have also increased the popularity of JavaScript for server-side
+                        Web applications. On the client side, developers have traditionally implemented JavaScript as
+                        an interpreted language, but more recent browsers perform just-in-time compilation. Programmers
+                        also use JavaScript in video-game development, in crafting desktop and mobile applications, and
+                        in server-side network programming with run-time environments such as Node.js.
+                    </p>
+                </content>
+            </article>
+
+        </div>
+    </div>
 <hr>
+    <footer class ="mainFooter">
+        <p>Copyright © 2017 Yi Xie & Shawn Koch</a></p>
+    </footer>
 
-<Section id="html-cs-js">
-    <article id="html">
-        <h2>
-        HTML
-        </h2>
-        <p>
-            <Strong>HyperText Markup Language (HTML)</Strong> is the standard markup language for creating web pages and web
-            applications. Web browsers receive HTML documents from a webserver or from
-            local storage and render them into multimedia web pages. HTML describes the structure of a web
-            page semantically and originally included cues for the appearance of the document.
-            HTML elements are the building blocks of HTML pages. With HTML constructs, images and other
-            objects, such as interactive forms may be embedded into the rendered page. It provides a means
-            to create structured documents by denoting structural semantics for text such as headings,
-            paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written
-            using angle brackets.
-            With <em>Cascading Style Sheets (CSS)</em>, and JavaScript, it forms a triad of cornerstone
-            technologies for the World Wide Web.
-            More information please check:
-            <a href="https://www.w3schools.com/html/" title="HTML5 Tutorial @ w3schools.com">Visit our HTML tutorial</a>
-        </p>
-
-    </article>
-
-    <article id="css">
-        <h2>
-            CSS
-        </h2>
-        <p>
-            <strong>CSS</strong> stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper,
-            or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once.
-            External stylesheets are stored in <em>CSS</em> files. More information please check: <a href="https://www.w3schools.com/css/" title="CSS Tutorial @ w3schools.com">CSS</a>
-        </p>
-    </article>
-
-    <article id="js">
-        <h2>
-            JavaScript
-        </h2>
-        <p>
-            <strong>JavaScript</strong> often abbreviated as JS, is a high-level, dynamic, weakly typed, object-based,
-            multi-paradigm, and interpreted programming language. Alongside HTML and CSS, JavaScript is one of the three core
-            technologies of World Wide Web content production. It is used to make webpages interactive and provide online programs,
-            including video games. The majority of websites employ it, and all modern web browsers support it without the need
-            for plug-ins by means of a <em>built-in</em> JavaScript engine. Each of the many JavaScript engines represent a different
-            implementation of JavaScript, all based on the ECMAScript specification, with some engines not supporting the
-            spec fully, and with many engines supporting additional features beyond ECMA.
-            More information please check: <a href="https://www.w3schools.com/js/" title="JavaScript Tutorial @ w3schools.com">Javascript</a>
-        </p>
-    </article>
-
-
-</Section>
-<hr>
-<footer>
-    <small>&copy; Copyright 2017, YI XIE / SHAWN KOCH</small>
-</footer>
 </body>
 </html>
